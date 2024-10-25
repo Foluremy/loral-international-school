@@ -79,7 +79,7 @@ h1, h2, h3, h4, .cta {
 
 /* Hero Section */
 .hero {
-    background-image: url("hero-image.jpeg");
+    background-image: url("./hero-image.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: ;
