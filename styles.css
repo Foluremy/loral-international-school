@@ -46,6 +46,9 @@ h1, h2, h3, h4, .cta {
 
 .container hr {
     display: none;
+    color: whitesmoke;
+    width: 80%;
+    opacity: 0.5;
 }
 
 .container-item {
@@ -376,6 +379,11 @@ hr {
     .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
         font-size: 1em;
     }
+
+    .gallery-content img {
+        width: 90%;
+        margin: 10px;
+    }
     }
 
 /* Max-width: 768px */
@@ -479,11 +487,15 @@ hr {
         padding: 25px 10px;
     }
 
-    .apply-image img, .gallery-content img {
+    .apply-image img {
         width: 90%;
         margin: 10px;
     }
 
+    .gallery-content img {
+        width: 60%;
+    }
+    
     .apply-image img {
         height: auto;
     }
@@ -496,6 +508,17 @@ hr {
         font-size: 0.8em;
     }
     }
-    
+
+
+/* Max-width: 1024px */
+@media (max-width: 1024px) {
+    .hero {
+        height: 700px;
+    }
+
+    .gallery-content img {
+        width: 50%;
+    }
+}
     
     
