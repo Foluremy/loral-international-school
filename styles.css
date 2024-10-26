@@ -382,7 +382,7 @@ hr {
     }
 
     .gallery-content img {
-        width: 90%;
+        width: 95%;
         margin: 10px;
     }
     }
@@ -494,7 +494,8 @@ hr {
     }
 
     .gallery-content img {
-        width: 60%;
+        width: 40%;
+        margin: 10px;
     }
     
     .apply-image img {
@@ -517,8 +518,17 @@ hr {
         height: 700px;
     }
 
+    .hero-content p {
+    font-size: 1.7em;
+    } 
+
+    .about-content-body p, .apply-content p {
+    font-size: 1.1em;
+    }
+
     .gallery-content img {
-        width: 50%;
+        width: 40%;
+        margin: 10px
     }
 }
     
