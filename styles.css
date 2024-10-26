@@ -16,6 +16,7 @@ h1, h2, h3, h4, .cta {
 }
 
 .cta:hover {
+    background-color: navy;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
