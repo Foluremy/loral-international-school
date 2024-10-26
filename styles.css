@@ -44,6 +44,10 @@ h1, h2, h3, h4, .cta {
     margin-left: 47%;
 }
 
+.container hr {
+    display: none;
+}
+
 .container-item {
     margin: 0 25px;
 }
@@ -365,78 +369,14 @@ hr {
 
 @media (max-width: 480px) {
 
-.hero {
-height: 500px;
-}
+    .hero {
+        height: 500px;
+    }
 
-.hero-content {
-padding-top: 30px;
-}
-
-.hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
-    font-size: 1.1em;
-}
-
-.about, .apply {
-    flex-wrap: wrap;
-}
-
-.about-header {
-    display: flex;
-    margin: 0;
-}
-
-.about-content-header {
-    display: none;
-}
-
-.about-image img {
-    width: 100%;
-    height: auto;
-}
-
-.core-values-header {
-    margin-top: 0;
-}
-
-.core-values-item {
-    flex-direction: column;
-}
-
- .core-values-item img {
-    height: 50%;
-}
-
-. stats-item {
-    padding: 10px;
-} 
-
-.stats-item p {
-    font-size: 1.2em;
-}
- 
-.apply, .gallery-content {
-    height: fit-content;
-    padding: 25px 10px;
-}
-
-.apply-image img, .gallery-content img {
-    width: 90%;
-    margin: 10px;
-}
-
-.apply-image img {
-    height: auto;
-}
-
-.footer-section {
-    padding: 10px;
-} 
-
-.footer-section p, .footer-section h2, .footer-section h3 {
-    font-size: 0.8em;
-}
-}
+    .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
+        font-size: 1em;
+    }
+    }
 
 /* Max-width: 768px */
 @media (max-width: 768px) {
@@ -463,6 +403,10 @@ padding-top: 30px;
         align-items: center;
     }
 
+    .container hr {
+        display: flex;
+    }
+
     .container-item {
         margin: 20px 0;
     }
@@ -480,114 +424,78 @@ padding-top: 30px;
         z-index: 10;
     }
 
-    height: 500px;
-}
+    .hero {
+        height: 600px;
+    }
 
-.hero-content {
-padding-top: 30px;
-}
+    .hero-content {
+        padding-top: 30px;
+    }
 
-.hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
-    font-size: 1.1em;
-}
+    .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
+        font-size: 1.3em;
+    }
 
-.about, .apply {
-    flex-wrap: wrap;
-}
+    .about, .apply {
+        flex-wrap: wrap;
+    }
 
-.about-header {
-    display: flex;
-    margin: 0;
-}
+    .about-header {
+        display: flex;
+        margin: 0;
+    }
 
-.about-content-header {
-    display: none;
-}
+    .about-content-header {
+        display: none;
+    }
 
-.about-image img {
-    width: 100%;
-    height: auto;
-}
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
 
-.core-values-header {
-    margin-top: 0;
-}
+    .core-values-header {
+        margin-top: 0;
+    }
 
-.core-values-item {
-    flex-direction: column;
-}
+    .core-values-item {
+        flex-direction: column;
+    }
 
- .core-values-item img {
-    height: 50%;
-}
+    .core-values-item img {
+        height: 50%;
+    }
 
-. stats-item {
-    padding: 10px;
-} 
+    .stats-item {
+        padding: 10px;
+    } 
 
-.stats-item p {
-    font-size: 1.2em;
-}
+    .stats-item p {
+        font-size: 1.2em;
+    }
  
-.apply, .gallery-content {
-    height: fit-content;
-    padding: 25px 10px;
-}
+    .apply, .gallery-content {
+        height: fit-content;
+        padding: 25px 10px;
+    }
 
-.apply-image img, .gallery-content img {
-    width: 90%;
-    margin: 10px;
-}
+    .apply-image img, .gallery-content img {
+        width: 90%;
+        margin: 10px;
+    }
 
-.apply-image img {
-    height: auto;
-}
+    .apply-image img {
+        height: auto;
+    }
 
-.footer-section {
-    padding: 10px;
-} 
+    .footer-section {
+        padding: 10px;
+    } 
 
-.footer-section p, .footer-section h2, .footer-section h3 {
-    font-size: 0.8em;
-}
+    .footer-section p, .footer-section h2, .footer-section h3 {
+        font-size: 0.8em;
+    }
     }
     
     
     
-
-/* Tablet */
-
-@media (max-width: px) {
-.nav {
-justify-content: space-around;
-}
-.logo img {
-width: 40%;
-}
-.hero {
-height: 700px;
-}
-.about-image img {
-width: 80%;
-height: auto;
-}
-.core-values-item img {
-width: 50%;
-}
-.stats-item {
-margin: 20px;
-width: 40%;
-}
-.gallery-content img {
-width: 50%;
-}
-.apply-image img {
-width: 80%;
-height: auto;
-}
-.footer-section {
-padding: 20px;
-}
-}
-
-
