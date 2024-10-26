@@ -382,7 +382,7 @@ hr {
     }
 
     .gallery-content img {
-        width: 95%;
+        width: 180px;
         margin: 10px;
     }
     }
@@ -494,13 +494,10 @@ hr {
         margin: auto;
     }
 
-    .gallery-content {
-        height: fit-content;
-    }
-    
     .gallery-content img {
-        width: 40%;
+        width: 250px;
         margin: 10px;
+        padding: 25px 10px;
     }
 
     .footer-section {
@@ -528,9 +525,10 @@ hr {
     }
 
     .gallery-content img {
-        width: 40%;
-        margin: 10px
+        width: 250px;
+        margin: 10px;
+        padding: 25px 10px;
     }
-}
+    }
     
     
