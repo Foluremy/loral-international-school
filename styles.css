@@ -514,7 +514,7 @@ hr {
     }
 
 
-/* Max-width: 1024px */
+/* Min-width: 769px and Max-width: 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
     h1, h2 {
         font-size: 2.3em;
@@ -568,3 +568,49 @@ hr {
     }
     
     
+/* Min-width: 1025px and Max-width: 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    h1, h2 {
+        font-size: 2.5em;
+    }
+
+    .cta a {
+        font-size: 2em;
+    }
+
+    .container {
+        margin-left: 55%;
+    }
+    
+    .hero {
+        height: 1200px;
+    }
+
+    .hero-content p {
+        font-size: 2em;
+    } 
+
+    .about-content-body p, .apply-content p {
+        font-size: 1.5em;
+    }
+
+    .about-image img {
+        padding-top: 90px;
+    }
+
+    .gallery-content img {
+        width: 260px;
+        margin: 10px;
+        padding: 25px 10px;
+    }
+    
+    .apply {
+        height: 700px;
+    }
+
+    .apply-image img {
+        height: 700px;
+    }
+    }
+    
+
