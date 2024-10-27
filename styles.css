@@ -378,7 +378,7 @@ hr {
     }
 
     .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p, .container-item a  {
-        font-size: 0.4em;
+        font-size: 1em;
     }
 
     .gallery-content img {
@@ -444,11 +444,7 @@ hr {
     .hero-content {
         padding-top: 30px;
     }
-
-    .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
-        font-size: 1.3em;
-    }
-
+    
     .about, .apply {
         flex-wrap: wrap;
     }
@@ -513,6 +509,12 @@ hr {
     }
     }
 
+/* */
+@media (min-width: 481px) and (max-width: 800px) {
+    .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
+        font-size: 1.3em;
+    }
+}
 
 /* Min-width: 801px and Max-width: 1024px */
 @media (min-width: 801px) and (max-width: 1024px) {
@@ -566,8 +568,12 @@ hr {
         font-size: 3em;
     }
 
+    .cta {
+        width: fit-content;
+    }
+
     .cta a {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     .footer-section h2 {
@@ -621,7 +627,7 @@ hr {
     }
 
     .apply-image img {
-        width: 600px;
+        width: 590px;
         height: 600px;
     }
     }
@@ -632,8 +638,12 @@ hr {
         font-size: 3.5em;
     }
 
+    .cta {
+        width: fit-content;
+    }
+
     .cta a {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     .footer-section h2 {
@@ -687,7 +697,7 @@ hr {
     }
 
     .apply-image img {
-        width: 650px;
+        width: 680px;
         height: 650px;
     }
 }
