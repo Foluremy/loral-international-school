@@ -378,7 +378,7 @@ hr {
     }
 
     .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p, .container-item a  {
-        font-size: 0.1em;
+        font-size: 0.4em;
     }
 
     .gallery-content img {
@@ -527,11 +527,6 @@ hr {
     .footer-section h3 {
         font-size: 1.1em;
     }
-
-    .logo img {
-        width: 100%;
-        height: 100%;
-    }
     
     .hero {
         height: 850px;
@@ -572,7 +567,7 @@ hr {
     }
 
     .cta a {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     .footer-section h2 {
@@ -607,8 +602,9 @@ hr {
 
     .gallery-content {
         padding-bottom: 50px;
+        height: fit-content;
     }
-    
+
     .gallery-content img {
         width: 280px;
         height: 250px;
@@ -625,6 +621,7 @@ hr {
     }
 
     .apply-image img {
+        width: 600px;
         height: 600px;
     }
     }
@@ -636,7 +633,7 @@ hr {
     }
 
     .cta a {
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 
     .footer-section h2 {
@@ -648,7 +645,7 @@ hr {
     }
     
     .container {
-        margin-left: 75%;
+        margin-left: 70%;
     }
     
     .hero {
@@ -671,6 +668,7 @@ hr {
 
     .gallery-content {
         padding-bottom: 50px;
+        height: fit-content;
     }
     
     .gallery-content img {
@@ -689,6 +687,7 @@ hr {
     }
 
     .apply-image img {
+        width: 650px;
         height: 650px;
     }
 }
