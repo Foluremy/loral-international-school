@@ -377,7 +377,7 @@ hr {
         height: 400px;
     }
 
-    .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
+    .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p, .container-item a  {
         font-size: 0.7em;
     }
 
@@ -389,6 +389,7 @@ hr {
     .apply-image img {
         margin: auto;
     }
+}
 
 /* Max-width: 768px */
 @media (max-width: 768px) {
