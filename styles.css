@@ -516,16 +516,20 @@ hr {
 
 /* Max-width: 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    
     .hero {
-        height: 700px;
+        height: 800px;
     }
 
     .hero-content p {
-    font-size: 1.7em;
+        font-size: 1.7em;
     } 
 
     .about-content-body p, .apply-content p {
-    font-size: 1.1em;
+        font-size: 0.5em;
     }
 
     .gallery-content img {
