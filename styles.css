@@ -517,7 +517,11 @@ hr {
 /* Max-width: 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
     h2 {
-        font-size: 1.5em;
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
     }
     
     .hero {
