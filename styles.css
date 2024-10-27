@@ -121,7 +121,7 @@ h1, h2, h3, h4, .cta {
     width: 400px;
     height: 460px;
     border-radius: 25px;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 .about-content {
@@ -515,9 +515,13 @@ hr {
 
 
 /* Max-width: 1024px */
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     h1, h2 {
         font-size: 2.3em;
+    }
+
+    .cta a {
+        font-size: 2em;
     }
     
     .footer-section h2 {
@@ -537,7 +541,11 @@ hr {
     } 
 
     .about-content-body p, .apply-content p {
-        font-size: 1.4em;
+        font-size: 1.3em;
+    }
+
+    .about-image img {
+        padding-top: 70px;
     }
 
     .gallery-content img {
@@ -551,6 +559,10 @@ hr {
     }
 
     .apply {
+        height: fit-content;
+    }
+
+    .apply-image img {
         height: fit-content;
     }
     }
