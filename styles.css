@@ -521,7 +521,7 @@ hr {
     }
 
     .cta a {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     
     .footer-section h2 {
@@ -548,8 +548,8 @@ hr {
         padding-top: 80px;
     }
 
-    .stats-item:hover {
-        padding: 10px;
+    .stats-item {
+        padding-bottom: 10px;
     }
 
     .gallery-content img {
@@ -559,11 +559,11 @@ hr {
     }
     
     .apply {
-        height: 700px;
+        height: 650px;
     }
 
     .apply-image img {
-        height: 700px;
+        height: 650px;
     }
     }
     
@@ -571,15 +571,23 @@ hr {
 /* Min-width: 1025px and Max-width: 1440px */
 @media (min-width: 1025px) and (max-width: 1440px) {
     h1, h2 {
-        font-size: 2.5em;
+        font-size: 2.7em;
     }
 
     .cta a {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
+    .footer-section h2 {
+        font-size: 1.3em;
+    }
+
+    .footer-section h3 {
+        font-size: 1.1em;
+    }
+    
     .container {
-        margin-left: 55%;
+        margin-left: 60%;
     }
     
     .hero {
@@ -587,7 +595,7 @@ hr {
     }
 
     .hero-content p {
-        font-size: 2em;
+        font-size: 2.2em;
     } 
 
     .about-content-body p, .apply-content p {
@@ -595,21 +603,27 @@ hr {
     }
 
     .about-image img {
-        padding-top: 90px;
+        padding-top: 100px;
+        width: 450px;
+    }
+
+    .stats-item {
+        padding-bottom: 10px;
     }
 
     .gallery-content img {
-        width: 260px;
+        width: 280px;
+        height: 250px;
         margin: 10px;
         padding: 25px 10px;
     }
     
     .apply {
-        height: 700px;
+        height: 650px;
     }
 
     .apply-image img {
-        height: 700px;
+        height: 650px;
     }
     }
     
