@@ -555,15 +555,16 @@ hr {
     }
 
     .stats-item {
-        padding: 10px;
+        padding: 20px;
     }
-
+    
     .apply {
-        height: fit-content;
+        height: 700px;
     }
 
     .apply-image img {
-        height: fit-content;
+        width: auto;
+        height: 700px;
     }
     }
     
