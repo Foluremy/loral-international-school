@@ -377,8 +377,12 @@ hr {
         height: 500px;
     }
 
-    .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
+    .hero-content p, .about-content-body p, .apply-content p {
         font-size: 1em;
+    }
+
+    .core-values-item div p {
+        font-size: 0.7em;
     }
 
     .gallery-content img {
