@@ -548,6 +548,10 @@ hr {
         padding-top: 80px;
     }
 
+    .stats-item:hover {
+        padding: 10px;
+    }
+
     .gallery-content img {
         width: 260px;
         margin: 10px;
