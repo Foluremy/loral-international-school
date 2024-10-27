@@ -548,10 +548,6 @@ hr {
         padding-top: 80px;
     }
 
-    .stats-item p{
-        padding-bottom: 10px;
-    }
-
     .gallery-content img {
         width: 260px;
         margin: 10px;
@@ -559,11 +555,11 @@ hr {
     }
     
     .apply {
-        height: 600px;
+        height: 650px;
     }
 
     .apply-image img {
-        height: 600px;
+        height: 650px;
     }
     }
     
@@ -608,10 +604,6 @@ hr {
         height: 650px;
     }
 
-    .stats-item p {
-        padding-bottom: 10px;
-    }
-
     .gallery-content img {
         width: 280px;
         height: 250px;
@@ -651,7 +643,7 @@ hr {
     }
     
     .container {
-        margin-left: 80%;
+        margin-left: 75%;
     }
     
     .hero {
@@ -670,10 +662,6 @@ hr {
         padding-top: 150px;
         width: 500px;
         height: 650px;
-    }
-
-    .stats-item p {
-        padding-bottom: 15px;
     }
 
     .gallery-content img {
