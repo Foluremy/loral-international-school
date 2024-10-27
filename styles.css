@@ -517,15 +517,15 @@ hr {
 /* Max-width: 1024px */
 @media (max-width: 1024px) {
     h1 {
-        font-size: 2.2em;
+        font-size: 2.3em;
     }
     
-    h2 {
-        font-size: 1.4em;
+    .footer-section h2 {
+        font-size: 1.3em;
     }
 
-    h3 {
-        font-size: 1.2em;
+    .footer-section h3 {
+        font-size: 1.1em;
     }
     
     .hero {
@@ -537,7 +537,7 @@ hr {
     } 
 
     .about-content-body p, .apply-content p {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .gallery-content img {
