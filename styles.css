@@ -374,14 +374,10 @@ hr {
 @media (max-width: 480px) {
 
     .hero {
-        height: 500px;
+        height: 400px;
     }
 
-    .hero-content p, .about-content-body p, .apply-content p {
-        font-size: 1em;
-    }
-
-    .core-values-item div p {
+    .hero-content p, .about-content-body p, .core-values-item div p, .apply-content p {
         font-size: 0.7em;
     }
 
@@ -389,6 +385,9 @@ hr {
         width: 180px;
         margin: 10px;
     }
+
+    .apply-image img {
+        margin: auto;
     }
 
 /* Max-width: 768px */
