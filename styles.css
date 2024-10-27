@@ -121,7 +121,7 @@ h1, h2, h3, h4, .cta {
     width: 400px;
     height: 460px;
     border-radius: 25px;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .about-content {
@@ -515,7 +515,7 @@ hr {
 
 
 /* Max-width: 1024px */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     h2 {
         font-size: 1.4em;
     }
@@ -529,7 +529,7 @@ hr {
     }
 
     .hero-content p {
-        font-size: 1.7em;
+        font-size: 1.8em;
     } 
 
     .about-content-body p, .apply-content p {
@@ -537,9 +537,17 @@ hr {
     }
 
     .gallery-content img {
-        width: 250px;
+        width: 260px;
         margin: 10px;
         padding: 25px 10px;
+    }
+
+    .stats-item {
+        padding: 10px;
+    }
+
+    .apply {
+        height: fit-content;
     }
     }
     
