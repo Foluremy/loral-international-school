@@ -521,7 +521,7 @@ hr {
     }
 
     .cta a {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     
     .footer-section h2 {
@@ -548,7 +548,7 @@ hr {
         padding-top: 80px;
     }
 
-    .stats-item {
+    .stats-item p{
         padding-bottom: 10px;
     }
 
@@ -559,11 +559,11 @@ hr {
     }
     
     .apply {
-        height: 650px;
+        height: 600px;
     }
 
     .apply-image img {
-        height: 650px;
+        height: 600px;
     }
     }
     
@@ -571,11 +571,11 @@ hr {
 /* Min-width: 1025px and Max-width: 1440px */
 @media (min-width: 1025px) and (max-width: 1440px) {
     h1, h2 {
-        font-size: 2.7em;
+        font-size: 3em;
     }
 
     .cta a {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .footer-section h2 {
@@ -595,7 +595,7 @@ hr {
     }
 
     .hero-content p {
-        font-size: 2.2em;
+        font-size: 2.5em;
     } 
 
     .about-content-body p, .apply-content p {
@@ -603,11 +603,12 @@ hr {
     }
 
     .about-image img {
-        padding-top: 100px;
-        width: 450px;
+        padding-top: 110px;
+        width: 500px;
+        height: 650px;
     }
 
-    .stats-item {
+    .stats-item p {
         padding-bottom: 10px;
     }
 
@@ -617,6 +618,74 @@ hr {
         margin: 10px;
         padding: 25px 10px;
     }
+
+    .gallery-content img:hover {
+        height: 200px
+    }
+    
+    .apply {
+        height: 600px;
+    }
+
+    .apply-image img {
+        height: 600px;
+    }
+    }
+
+/* Min-width: 1441px */
+@media (min-width: 1441px) {
+    h1, h2 {
+        font-size: 3.5em;
+    }
+
+    .cta a {
+        font-size: 1.5em;
+    }
+
+    .footer-section h2 {
+        font-size: 1.5em;
+    }
+
+    .footer-section h3 {
+        font-size: 1.3em;
+    }
+    
+    .container {
+        margin-left: 80%;
+    }
+    
+    .hero {
+        height: 1500px;
+    }
+
+    .hero-content p {
+        font-size: 2.8em;
+    } 
+
+    .about-content-body p, .apply-content p {
+        font-size: 1.7em;
+    }
+
+    .about-image img {
+        padding-top: 150px;
+        width: 500px;
+        height: 650px;
+    }
+
+    .stats-item p {
+        padding-bottom: 15px;
+    }
+
+    .gallery-content img {
+        width: 300px;
+        height: 280px;
+        margin: 10px;
+        padding: 25px 10px;
+    }
+
+    .gallery-content img:hover {
+        height: 250px
+    }
     
     .apply {
         height: 650px;
@@ -625,6 +694,6 @@ hr {
     .apply-image img {
         height: 650px;
     }
-    }
+}
     
 
